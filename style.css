@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #ff5454 16.62%, #fcb045 85.61%);
+}
+.pokebola {
+    height: 60px;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.menu-cabecalho {
+    display: flex;
+    gap: 32px;
+}
+.item-menu {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #2F2325;
+}
+.item-menu:hover {
+    color: #FFF2E7;
+}
+.conteudo {
+    border-top: 0.6px solid #FFF2E7;
+    margin-bottom: 48px;
+}
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 32px;
+}
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.conteudo-principal-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    color: #2F2325;
+    font-size: 64px;
+}
+.conteudo-principal-subtitulo {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 400;
+    color: #2F2325;
+    font-size: 24px;
+}
+.botao {
+    background-color: #FFF2E7;
+    width: 200px;
+    height: 80px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Varela Round', sans-serif;
+    color: #2F2325;
+    font-weight: 400;
+    font-size: 24px;
+}
+.botao:hover {
+    background-color: #f8bf70
+}
+.charmander {
+    height: 300px;
+    margin-top: 32px;
+}
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin: 48px 0;
+}
+.conteudo-secundario-titulo {
+    border-top: 0.6px solid #FFF2E7;
+    padding-top: 32px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    color: #2F2325;
+    font-size: 24px;
+}
+.paragrafo {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 300;
+    color: #2F2325;
+    font-size: 18px;
+}
+.rodape {
+    border-top: 0.6px solid #FFF2E7;
+}
+.pokemon {
+    height: 100px;
+    display: block;
+    margin: 32px auto;
+}
