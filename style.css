@@ -32,6 +32,7 @@ body {
 }
 .item-menu:hover {
     color: #FFF2E7;
+    cursor: pointer;
 }
 .conteudo {
     border-top: 0.6px solid #FFF2E7;
@@ -74,7 +75,8 @@ body {
     font-size: 24px;
 }
 .botao:hover {
-    background-color: #f8bf70
+    background-color: #f8bf70;
+    cursor: pointer;   
 }
 .charmander {
     height: 300px;
